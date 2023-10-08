@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ site.isolang }}" itemscope itemtype="http://schema.org/WebPage">
+
+{% include head.html %}
+
+<body class="wrap wider">
+	<div class="grid">
+		<div id="/home" class="unit one-quarter">
+			<div class="grid" style="margin-top: 2rem">
+				<!-- <div class="unit one-fifth"><p></p></div> -->
+				<div class="unit four-fifths">
+					<img src="/assets/images/me_tele.jpg" style="border-radius: 50%; box-shadow: 3px 3px 10px #cccccc;">
+				</div>
+				<div class="unit one-fifth"><p></p></div>
+			</div>
+			<div class="grid">
+				<div class="unit whole" id="/home" style="padding-right: 2rem">
+					<h3 style="margin: 0">Zhuoqian<br> Yang</h3>
+					<p>{{ site.description }}</p>
+
+					<p><small>Hi, there! I am a PhD student at EPFL, supervised by <a href="https://people.epfl.ch/mathieu.salzmann">Dr. Mathieu Salzmann</a>. </small></p>
+
+					<p>Previous Experiences</p>
+
+					<p><small><b>2021-2023</b> I worked as a research engineer at Shanghai AI Lab, with <a href="http://daibo.info">Dr. Bo Dai</a> and <a href="http://wywu.github.io">Dr. Wayne Wu</a>.</small></p>
+
+					<p><small><b>2019-2020</b> I obtained my Master's degree in Computer Vision at the Robotics Institute, Carnegie Mellon University, working with <a href="https://laszlojeni.com">Dr. Laszlo Jeni</a>. </small></p>
+
+					<p><small><b>2015-2019</b> I obtained my Bachelor's degree in Software Engineering at Beihang University. I worked with <a href="http://dsd.future-lab.cn/members/qin.html">Prof. Zengchang Qin</a> and <a href="https://www.researchgate.net/profile/Yang-Yang-219">Prof. Yang Yang</a> during this time.</small></p>
+
+					<div class="unit whole" id="/contact">
+						<small>Email: yzhq97 [at] gmail.com</small>
+					</div>
+					<div class="unit whole" id="/contact">
+						<small>CV: <a class="alt-chip" href="/assets/files/CV - Zhuoqian Yang.pdf">download</a></small>
+					</div>
+				</div>
+				<div class="unit whole" id="/contact">
+					<a href="https://github.com/{{ site.github_username }}" class="github-icon btn"><i class="icon ion-social-github"></i></a>
+					<a href="{{ site.google_scholar }}" class="github-icon btn"><i class="icon ion-social-google"></i></a>
+					<a href="{{ site.linkedin }}" class="github-icon btn"><i class="icon ion-social-linkedin"></i></a>
+<!-- 					<a href="{{ site.instagram_link }}" class="github-icon btn"><i class="ion-social-instagram-outline"></i></a> -->
+				</div>
+			</div>
+		</div>
+		<div class="unit three-quarters blog-column">
+			<div class="grid">
+				{{ content }}
+				<div class="unit whole" id="/acknoledgement">
+					<small>Template by <a href="https://github.com/lukas-h/onepage">lukas-h</a></small>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	{% include foot.html %}
+
+</body>
+
+</html>

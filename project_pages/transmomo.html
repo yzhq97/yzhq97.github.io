@@ -1,0 +1,295 @@
+---
+permalink: /transmomo/
+redirect_from:
+  - /transmomo
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <title>TransMoMo: Invariance-Driven Unsupervised Video Motion Retargeting</title>
+
+  <style type="text/css">
+
+    body {
+      margin: 0px;
+      background-color: #252525;
+      font-family: 'Open Sans', sans-serif;
+      color: #ffffff;
+    }
+
+    h1 {
+      text-align: center;
+      color: #f4f4f4;
+      font-size: 28px;
+      margin-top:15px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #ffffff;
+      font-size: 25px;
+    }
+
+    .text {
+    	font-size: 16px;
+      color: #ffffff;
+    }
+
+    #headerdiv {
+      width: 1000px;
+      margin: auto;
+    }
+    #maincontent {
+      width: 1000px;
+      margin: auto;
+      height: 440px;
+    }
+
+    #suppcontent {
+      padding-top: 0px;
+      background-color: black;
+      color: #BBBBBB;
+      font-size: 16px;
+    }
+
+    #content {
+      width: 1000px;
+      margin: auto;
+    }
+    td {
+      vertical-align: top;
+      text-align: center;
+    }
+    .desc {
+      color: #888888;
+    }
+    .center {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .logo-universities {
+      text-align: left;
+      margin-top: 20px;
+      margin-left: 68px;
+      margin-bottom: 0px;
+    }
+    .logo {
+      text-align: left;
+      margin-top: 20px;
+      margin-left: 7px;
+      margin-bottom: 0px;
+      display: inline
+    }
+    .universities {
+      /* float: right; */
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 0px;
+      display: inline
+    }
+
+    .institution {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 300;
+    }
+    .institution a {
+      color: #ffffff;
+    }
+    .center {
+      text-align: center;
+    }
+    .authors {
+      text-align: center;
+    }
+    .author {
+      margin-right: 58px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+
+    .resources {
+      /*text-align: center;*/
+      margin-top: 30px;
+      font-size: 20px;
+      line-height: 2.8;
+      color: #ffffff;
+    }
+
+
+    .author a {
+      color: #ffffff;
+      /*font-weight: bold;*/
+    }
+
+    p {
+      line-height: 1.8;
+      width: 1000px;
+      font-size: 16px;
+    }
+
+    sup {
+      color: #ffffff;
+    }
+
+  
+    .demo {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+
+    #files {
+      color: #555555;
+      margin-top: 20px;
+      font-size: 25px;
+    }
+
+    #files a {
+      text-decoration: None;
+      color: #3376cb;
+    }
+
+    a {
+          text-decoration: None;
+    }
+    .resources a:link { color: #057cfc; text-decoration: none }
+    .resources a:visited { color: #057cfc; text-decoration: none }
+    .resources a:hover { color: #063bb9; text-decoration: none }
+    .resources a:active { color: #063bb9; text-decoration: none }
+
+  </style>
+</head>
+
+<body>
+<!--   <div class="logo-universities">
+    <div class="logo">
+      <img src="./images/SIGG_logo.png" width=180>
+    </div>
+    <div class="universities">
+      <img src="./images/universities.png" width=180>
+    </div>
+  </div> -->
+<br>
+  <div id="headerdiv">
+  <!-- <img src="CVPR_Logo_Horz2_web.jpg" width=200px></p> -->
+<h1>
+TransMoMo: Invariance-Driven Unsupervised Video Motion Retargeting
+</h1>
+<!-- <p align="center">
+  <img src="/assets/transmomo/demo_1.gif" width=48%>
+  <img src="/assets/transmomo/demo_2.gif" width=50%>
+</p> -->
+
+<div class="authors">
+<span class="author"> 
+  <div text-align="justify">
+  <a target="_blank" href="https://yzhq97.github.io/">Zhuoqian Yang*<sup>1</sup></a>
+  <a target="_blank" href="https://wentao.live/">Wentao Zhu*<sup>2</sup></a>
+  <a target="_blank" href="https://wywu.github.io/">Wayne Wu*<sup>3</sup></a> <br>
+  <a target="_blank" href="https://www.linkedin.com/in/keninqc/">Chen Qian<sup>4</sup></a>,
+  <a target="_blank" href="https://www.tsinghua.edu.cn/publish/csen/4623/2010/20101225001843542358511/20101225001843542358511_.html">Qiang Zhou<sup>3</sup></a>,
+  <a target="_blank" href="http://bzhou.ie.cuhk.edu.hk/">Bolei Zhou<sup>5</sup></a>,
+  <a target="_blank" href="http://personal.ie.cuhk.edu.hk/~ccloy/">Chen Change Loy<sup>6</sup></a>
+  </div>
+</span>
+</div>
+<div class="institution">
+  <sup>1</sup><a target="_blank" href="https://www.ri.cmu.edu/">Robotics Institute, Carnegie Mellon University        </a>
+  <sup> 2</sup><a target="_blank" href="http://english.pku.edu.cn/">Peking University   </a>
+  <sup> 3</sup><a target="_blank" href="http://www.sist.tsinghua.edu.cn/docinfo_eng/index.jsp">BNRist, Tsinghua University </a> <br>
+  <sup> 4</sup><a target="_blank" href="https://www.sensetime.com/en/">SenseTime Research   </a>
+  <sup> 5</sup><a target="_blank" href="http://www.cuhk.edu.hk/english/index.html">CUHK</a>
+  <sup> 6</sup><a target="_blank" href="https://www.ntu.edu.sg/">Nanyang Technological University</a>
+</div>
+
+
+<div class="resources" align="center">
+   <!-- CVPR 2020<br> -->
+   <!-- <img src="CVPR_Logo_Horz2_web.jpg" align="center" width=200px><br> -->
+   <a target="_blank" href="http://arxiv.org/abs/2003.14401"><b>Paper</b></a> | 
+   <a target="_blank" href="https://github.com/yzhq97/transmomo.pytorch"><b>Code & Data</b></a> | 
+   <a target="_blank" href="https://youtu.be/akbRtnRMkMk"><b>Video</b></a> 
+   <!-- <p><img src="motion_transfer_v3.jpg" width=100%></p> -->
+</div>
+
+<h2>Introduction</h2>
+
+<p>We present a lightweight video motion retargeting approach that is capable of transferring motion in spite of structural and view-angle disparities between the source and the target.</p>
+<p align="center">
+  <img src="/assets/transmomo/dance.gif" width="60%">
+</p>
+
+<h3>Framework</h3>
+<p>Without using any paired data for supervision, the proposed method can be trained in an unsupervised manner by exploiting invariance properties of three orthogonal factors of variation including motion, structure, and view-angle. Speciﬁcally, with loss functions carefully derived based on invariance, we train an auto-encoder to disentangle the latent representations of such factors given the source and target video clips.</p><p>
+</p><p align="center"><img src="/assets/transmomo/framework.png" width="80%"></p>
+
+<h3>Unsupervised Representation Disentanglement</h3>
+<p>We exploit the invariance property of three factors: motion, structure, and view-angle. These factors of variation are enforced to be independent of each other, held constant when other factors vary. The invariance properties allow us to derive a set of purely unsupervised loss functions to train an auto-encoder for disentangling a sequence of skeletons into orthogonal latent representations.</p><p>
+</p><p align="center"><img src="/assets/transmomo/invariance.png" width="80%"></p>
+
+<!-- <h3>This allows us to selectively transfer motion extracted from the source video seamlessly to the target video in spite of structural and view-angle disparities between the source and the target.</h3>
+<p align="center"><img src="/assets/transmomo/dance.gif" width=65%></p> -->
+
+<h3>Latent Motion Representation</h3>
+<p>The learned latent representation is meaningful when interpolated. In this video, body structure is interpolated on the horizontal axis while motion is interpolated on the vertical axis.</p>
+<p align="center"><img src="/assets/transmomo/interpolate.gif" width="60%"></p>
+
+<h3>Novel View Synthesis</h3>
+<p>We can explicitly manipulate the view of decoded skeleton in the 3D space, rotating it before projecting down to 2D.</p>
+<p align="center"><img src="/assets/transmomo/novel-view.gif" width="55%"></p>
+
+<!-- <h2 class="abstract"> Abstract </h2>
+<div class="text">We present a lightweight video motion retargeting approach that is capable of transferring motion of a person in a source video realistically to another video of a target person. Without using any paired data for supervision, the proposed method can be trained in an unsupervised manner by exploiting invariance properties of three orthogonal factors of variation including motion, structure, and viewangle. Speciﬁcally, with loss functions carefully derived based on invariance, we train an auto-encoder to disentangle the latent representations of such factors given the source and target video clips. This allows us to selectively transfer motion extracted from the source video seamlessly to the target video in spite of structural and view-angle disparities between the source and the target. The relaxed assumption of paired data allows our method to be trained on a vast amount of videos needless of manual annotation of source-target pairing, leading to improved robustness against large structural variations and extreme motion in videos. </div> -->
+
+
+
+<h2> Video Demo </h2>
+<div class="text" align="center">
+  <iframe width="720" height="384" src="https://www.youtube.com/embed/akbRtnRMkMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</p>
+
+
+<h2 class="abstract"> Citation </h2>
+      
+  <!-- <p>Bibilographic information for this work: </p> -->
+
+  <p class="text">Z. Yang*, W. Zhu*, W. Wu*, C. Qian, Q. Zhou, B. Zhou, C. C. Loy. "TransMoMo: Invariance-Driven Unsupervised Video Motion Retargeting." IEEE Conference on Computer
+  Vision and Pattern Recognition (<b>CVPR</b>), 2020. (* indicates equal contribution.)
+  </p>
+
+
+  <p align="center"><b>Bibtex:</b></p>
+
+  <div class="text">
+  <code>
+    @inproceedings{transmomo2020, <br>
+    title={TransMoMo: Invariance-Driven Unsupervised Video Motion Retargeting}, <br>
+    author={Yang, Zhuoqian and Zhu, Wentao and Wu, Wayne and Qian, Chen and Zhou, Qiang and Zhou, Bolei and Loy, Chen Change}, <br>
+    booktitle={Computer Vision and Pattern Recognition}, <br>
+    year={2020} <br>
+  }
+  </code>
+  </div>
+  
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+</body>
+</html>

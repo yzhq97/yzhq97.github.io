@@ -1,0 +1,35 @@
+safe: false
+
+# build settings
+markdown: kramdown
+lsi: false
+
+title: "Zhuoqian Yang"
+description: "PhD Student at EPFL"
+url: "https://yzhq97.github.io" # replace by your site's url
+google_scholar: "https://scholar.google.com/citations?user=WTDthdcAAAAJ"
+instagram_link: "https://www.instagram.com/in_rainbws/"
+github_username:  "yzhq97"
+linkedin: "https://www.linkedin.com/in/yzhq97/"
+accent: "#fcf8f2" # accent color for blog column
+
+author: "Zhuoqian Yang"
+address: "Shanghai, CN"
+email: "yzhq97 [at] gmail.com"
+
+# google analytics tracking code, please change the value
+g_analytics: "UA-149364194-1"
+
+# language settings
+isolang: en
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md

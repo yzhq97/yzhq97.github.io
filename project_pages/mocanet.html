@@ -1,0 +1,288 @@
+---
+permalink: /mocanet/
+redirect_from:
+  - /mocanet
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <title>MoCaNet: Motion Retargeting in-the-wild via Canonicalization Networks</title>
+
+  <style type="text/css">
+
+    body {
+      margin: 0px;
+      background-color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      color: #ffffff;
+    }
+
+    h1 {
+      text-align: center;
+      color: #252525;
+      font-size: 26px;
+      margin-top:15px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #252525;
+      font-size: 25px;
+    }
+
+    .text {
+    	font-size: 16px;
+      color: #000000;
+    }
+
+    #headerdiv {
+      width: 1000px;
+      margin: auto;
+    }
+    #maincontent {
+      width: 1000px;
+      margin: auto;
+      height: 440px;
+    }
+
+    #suppcontent {
+      padding-top: 0px;
+      background-color: black;
+      color: #BBBBBB;
+      font-size: 16px;
+    }
+
+    #content {
+      width: 1000px;
+      margin: auto;
+    }
+    td {
+      vertical-align: top;
+      text-align: center;
+    }
+    .desc {
+      color: #888888;
+    }
+    .center {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .logo-universities {
+      text-align: left;
+      margin-top: 20px;
+      margin-left: 68px;
+      margin-bottom: 0px;
+    }
+    .logo {
+      text-align: left;
+      margin-top: 20px;
+      margin-left: 7px;
+      margin-bottom: 0px;
+      display: inline
+    }
+    .universities {
+      /* float: right; */
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 0px;
+      display: inline
+    }
+
+    .institution {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 300;
+    }
+    .institution a {
+      color: #252525;
+    }
+    .center {
+      text-align: center;
+    }
+    .authors {
+      text-align: center;
+    }
+    .author {
+      margin-right: 58px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #252525;
+    }
+
+    .resources {
+      /*text-align: center;*/
+      margin-top: 30px;
+      font-size: 20px;
+      line-height: 2.8;
+      color: #252525;
+    }
+
+
+    .author a {
+      color: #252525;
+      /*font-weight: bold;*/
+    }
+
+    p {
+      line-height: 1.8;
+      color: #252525;
+      width: 1000px;
+      font-size: 16px;
+    }
+
+    .conf p {
+      line-height: 1.8;
+      color: #252525;
+      width: 1000px;
+      font-size: 22px;
+    }
+
+    sup {
+      color: #252525;
+    }
+
+  
+    .demo {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+
+    #files {
+      color: #555555;
+      margin-top: 20px;
+      font-size: 25px;
+    }
+
+    #files a {
+      text-decoration: None;
+      color: #3376cb;
+    }
+
+    .tab {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+    a {
+          text-decoration: None;
+    }
+    .resources a:link { color: #057cfc; text-decoration: none }
+    .resources a:visited { color: #057cfc; text-decoration: none }
+    .resources a:hover { color: #063bb9; text-decoration: none }
+    .resources a:active { color: #063bb9; text-decoration: none }
+
+  </style>
+</head>
+
+<body>
+<!--   <div class="logo-universities">
+    <div class="logo">
+      <img src="./images/SIGG_logo.png" width=180>
+    </div>
+    <div class="universities">
+      <img src="./images/universities.png" width=180>
+    </div>
+  </div> -->
+<br>
+  <div id="headerdiv">
+  <!-- <img src="CVPR_Logo_Horz2_web.jpg" width=200px></p> -->
+<h1>
+MoCaNet: Motion Retargeting in-the-wild via Canonicalization Networks
+</h1>
+<div class="conf">
+<p align="center" class="authors">
+AAAI 2022
+</p>
+</div>
+<!-- <div> -->
+
+<!-- </div> -->
+
+<div class="authors">
+<span class="author"> 
+  <div text-align="justify">
+  <a target="_blank" href="https://wentao.live/">Wentao Zhu*</a>, <span class="tab">
+  <a target="_blank" href="https://yzhq97.github.io/">Zhuoqian Yang*</a>,  <span class="tab">
+  <a href="">Ziang Di</a>, <span class="tab">
+  <a target="_blank" href="https://wywu.github.io">Wayne Wu<sup>+</sup></a>, <span class="tab">
+  <a target="_blank" href="https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm">Yizhou Wang</a>, <span class="tab">
+  <a target="_blank" href="http://personal.ie.cuhk.edu.hk/~ccloy/">Chen Change Loy</a>
+  </div>
+</span>
+</div>
+<div class="institution">
+<a target="_blank" href="http://english.pku.edu.cn/">Peking University</a> <span class="tab">
+<a target="_blank" href="https://www.shlab.org.cn/">Shanghai AI Lab</a> <span class="tab">
+<a target="_blank" href="https://www.sensetime.com/en/">SenseTime Research</a> <span class="tab">
+<a target="_blank" href="https://www.seu.edu.cn/">Southeast University </a> <span class="tab">
+<a target="_blank" href="https://www.ntu.edu.sg/">Nanyang Technological University</a>
+</div>
+
+
+<div class="resources" align="center">
+   <!-- CVPR 2020<br> -->
+   <!-- <img src="CVPR_Logo_Horz2_web.jpg" align="center" width=200px><br> -->
+   <a target="_blank" href="http://arxiv.org/abs/2112.10082"><b>[Paper]</b></a> 
+   <a target="_blank" href="https://github.com/Walter0807/mocanet.pytorch"><b>[GitHub]</b></a> 
+   <!-- <a target="_blank" href="https://youtu.be/akbRtnRMkMk"><b>Video</b></a>  -->
+   <!-- <p><img src="motion_transfer_v3.jpg" width=100%></p> -->
+</div>
+
+<br><br>
+<div align="center"><img src="/assets/mocanet/arch_v2.jpg" width=90%></div>
+
+<h2>Abstract</h2>
+
+<p>We present a novel framework that brings the 3D motion retargeting task from controlled environments to in-the-wild scenarios. In particular, our method is capable of retargeting body motion from a character in a 2D monocular video to a 3D character without using any motion capture system or 3D reconstruction procedure. It is designed to leverage massive online videos for unsupervised training, requiring neither 3D annotations nor motion-body pairing information. The proposed method is built upon two novel canonicalization operations, structure canonicalization and view canonicalization. Trained with the canonicalization operations and the derived regularizations, our method learns to factorize a skeleton sequence into three independent semantic subspaces, <i>i.e.</i>, motion, structure, and view angle. The disentangled representation enables motion retargeting from 2D to 3D with high precision. Our method achieves superior performance on motion transfer benchmarks with large body variations and challenging actions. Notably, the canonicalized skeleton sequence could serve as a disentangled and interpretable representation of human motion that benefits action analysis and motion retrieval.</p>
+<p align="center">
+</p>
+
+
+<h2> Canonicalization </h2>
+<div align="center"><img src="/assets/mocanet/fig_vcsc.jpg" width=60%></div>
+<p>
+The ﬁrst row is the input 2D skeleton sequences. The following rows show the 3D results after applying view canonicalization, structure canonicalization, and both. Structure canonicalization yields skeleton sequences with a uniform body structure, while the motion and other features are preserved. Similarly, view canonicalization provides skeleton sequences with the same view angle, casting different sequences to a uniform view. 
+
+</p>
+
+
+<h2 class="abstract"> Citation </h2>
+      
+  <!-- <p>Bibilographic information for this work: </p> -->
+
+  <p class="text">W. Zhu*, Z. Yang*, Z. Di, W. Wu<sup>+</sup>, Y. Wang, C. C. Loy. "MoCaNet: Motion Retargeting in-the-wild via Canonicalization Networks." Thirty-Sixth AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2022. 
+  </p>
+
+
+  <p align="center"><b>Bibtex:</b></p>
+
+  <div class="text">
+  <code>
+    @inproceedings{mocanet2022, <br>
+    title={MoCaNet: Motion Retargeting in-the-wild via Canonicalization Networks}, <br>
+    author={Zhu, Wentao and Yang, Zhuoqian and Di, Ziang and Wu, Wayne and Wang, Yizhou and Loy, Chen Change}, <br>
+    booktitle={AAAI}, <br>
+    year={2022} <br>
+  }
+  </code>
+  </div>
+  
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+</body>
+</html>
